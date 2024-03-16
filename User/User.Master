@@ -1,0 +1,203 @@
+﻿<%--<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="NurseryWebApp1.User.User" %>--%>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+      <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Floristics</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+            <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src="img/core-img/leaf.png" alt="">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- ***** Top Header Area ***** -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Floristic@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: Floristic@gmail.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="0315002548"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: 0315002548</span></a>
+                            </div>
+
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta d-flex">
+                             
+                                <!-- Login -->
+                                <div class="login">
+                                    <a href="Login.aspx"><i class="fa fa-user" aria-hidden="true"></i> <span>You are login</span></a>
+                                </div>
+                                
+                                 
+                              </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***** Navbar Area ***** -->
+        <div class="alazea-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            </div>
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Navbar Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="Default.aspx">Home</a></li>
+                                    <li><a href="About.aspx">About</a></li>
+                                    <li><a href="Horticulture.aspx">Horticulture</a></li>
+                                    <li><a href="#">Shop</a>
+                                               <ul class="dropdown">
+                                                    <li><a href="Shop.aspx">Shop</a></li>
+                                                    <li><a href="Cart.aspx">Shopping Cart</a></li>
+                                                    <li><a href="OrderHistory.aspx"> Your Order history</a></li>
+                                                </ul>
+                                        </li>
+                                    <li><a href="Contact.aspx">Contact</a></li>
+                                </ul>
+ 
+                            <!-- Navbar End -->
+                        </div>
+                    </nav>
+
+                    </div>
+
+                    </div>
+                </div>
+      
+       
+
+            
+        
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+ <section class="hero-area">
+     <div class="hero-post-slides owl-carousel">
+
+         <!-- Single Hero Post -->
+         <div class="single-hero-post bg-overlay">
+             <!-- Post Image -->
+             <div class="slide-img bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
+             <div class="container h-100">
+                 <div class="row h-100 align-items-center">
+                     <div class="col-12">
+                         <!-- Post Content -->
+                         <div class="hero-slides-content text-center">
+                             <h2>Floristics a feel of nature anywhere and anytime</h2>
+                             <p> With 10 Years of experienece we bring you an array of plants to choose from. The Best products for your plants. A little of nature in your home.  </p>
+                             <div class="welcome-btn-group">
+                                 
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <!-- Single Hero Post -->
+         <div class="single-hero-post bg-overlay">
+             <!-- Post Image -->
+             <div class="slide-img bg-img" style="background-image: url(img/bg-img/2.jpg);"></div>
+             <div class="container h-100">
+                 <div class="row h-100 align-items-center">
+                     <div class="col-12">
+                         <!-- Post Content -->
+                         <div class="hero-slides-content text-center">
+                             <h2>Floristics a feel of nature anywhere and anytime</h2>
+                             <p>We offer more than any other plant retail in South Africa, you name it and we surely will have it in our garden.</p>
+                             <div class="welcome-btn-group">
+                               
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+     </div>
+ </section>
+ <!-- ##### Hero Area End ##### -->
+
+ <!-- ##### Type the index Code here ##### -->
+ 
+    <!-- ##### Blog Area End ##### -->
+
+    <!-- ##### Subscribe Area Start ##### -->
+  
+
+    <!-- ##### Contact Area Start ##### -->
+    
+                 
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    
+
+    <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+        <div>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
